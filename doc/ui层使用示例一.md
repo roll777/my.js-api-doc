@@ -47,7 +47,7 @@ my.ui.create('msgbox', null, null, {
 		});
 		//设置透明层
 		this.opacityBg = document.createElement('div');
-		this.opacityBg.style.cssText = "position:abusolute;width:100%;height:100%;z-index:99998;opacity:0.7";
+		this.opacityBg.style.cssText = "position:abusolute;width:100%;height:100%;z-index:99998;opacity:0.7;background:#fff;";
 		document.body.appendChild(this.opacityBg);
     },
     onUnload:function(){
