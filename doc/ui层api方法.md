@@ -74,6 +74,13 @@ ui层api方法
 * parseHTML() 解析模版中的标签。
 * getHTML() 远程加载模版的html字符串
 
+###子类改写事件
+
+* onReady() ui层实例化时触发该事件
+* onLoad() dom加载成功后触发该事件
+* onUnload() 移除后触发该事件
+* onResize() 页面窗口变化时触发该事件
+
 使用示例
 -
 ### init(target,list)
